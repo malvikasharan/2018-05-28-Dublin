@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "University College Dublin (UCD) Conway Institute"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "A Genomics Data Carpentry Workshop"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "University College Dublin, Belfield, Dublin 4, Ireland. Lecture hall: TBD"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ie"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "En"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
