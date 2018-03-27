@@ -43,7 +43,7 @@ eventbrite2: 44602470189
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite1}}&ref=etckt"
   frameborder="0"
-  width="100%"
+  width="49%"
   height="248px"
   scrolling="auto">
 </iframe>
@@ -53,7 +53,7 @@ eventbrite2: 44602470189
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite2}}&ref=etckt"
   frameborder="0"
-  width="100%"
+  width="49%"
   height="248px"
   scrolling="auto">
 </iframe>
