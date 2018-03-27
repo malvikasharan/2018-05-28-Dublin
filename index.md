@@ -13,9 +13,11 @@ startdate: 2018-05-28      # machine-readable start date for the workshop in YYY
 enddate: 2018-05-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Malvika Sharan, Jason Williams, Tania Allard"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Bérénice Batut, Danielle Quinn, Chiara Cotroneo, Benjamin Roques, TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["organizer: malvika.sharan@embl.de, local-host: norman.davey@ucd.ie"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["organizer: malvika.sharan@embl.de, norman.davey@ucd.ie"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/2018-05-28-Dublin            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: 44600755059          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite1: 44600755059
+eventbrite2: 44602470189 
+# optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -37,7 +39,17 @@ eventbrite: 44600755059          # optional: alphanumeric key for Eventbrite reg
   are not using Eventbrite, or leave it in, since it will not be
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite %}
+{% if page.eventbrite1 %}
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="248px"
+  scrolling="auto">
+</iframe>
+{% endif %}
+
+{% if page.eventbrite2 %}
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
@@ -148,8 +160,7 @@ eventbrite: 44600755059          # optional: alphanumeric key for Eventbrite reg
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  you please get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
 
