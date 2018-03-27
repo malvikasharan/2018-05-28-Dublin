@@ -41,7 +41,7 @@ eventbrite2: 44602470189
 {% endcomment %}
 {% if page.eventbrite1 %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite1}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="248px"
@@ -51,7 +51,7 @@ eventbrite2: 44602470189
 
 {% if page.eventbrite2 %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite2}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="248px"
