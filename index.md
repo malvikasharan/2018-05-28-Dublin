@@ -335,4 +335,5 @@ eventbrite: 44600755059
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'shell' section. {% endcomment %}
+</div> 
+{% comment %} End of 'shell' section. {% endcomment %}
