@@ -42,7 +42,7 @@ eventbrite: 44600755059
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
-  width="80%"
+  width="100%"
   height="248px"
   scrolling="auto">
 </iframe>
