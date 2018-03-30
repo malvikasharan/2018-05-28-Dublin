@@ -235,7 +235,6 @@ eventbrite: 44600755059
 <hr/>
 
 {% comment %}
-  {% comment %}
   SYLLABUS
 
   Show what topics will be covered.
@@ -317,10 +316,12 @@ eventbrite: 44600755059
       <p>
         The default shell in all versions of macOS is Bash, so no
         need to install anything.  You access Bash from the Terminal
-        found in `Applications/Utilities`.
+        (found in
+        <code>/Applications/Utilities</code>).
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open the Terminal.
-        You may want to keep Terminal in your dock for this workshop.
+        You may want to keep
+        Terminal in your dock for this workshop.
       </p>
     </div>
     <div class="col-md-4">
@@ -333,5 +334,4 @@ eventbrite: 44600755059
       </p>
     </div>
   </div>
-</div> 
-{% comment %} End of 'shell' section. {% endcomment %}
+</div> {% comment %} End of 'shell' section. {% endcomment %}
