@@ -317,12 +317,10 @@ eventbrite: 44600755059
       <p>
         The default shell in all versions of macOS is Bash, so no
         need to install anything.  You access Bash from the Terminal
-        (found in
-        <code>/Applications/Utilities</code>).
+        found in `Applications/Utilities`.
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open the Terminal.
-        You may want to keep
-        Terminal in your dock for this workshop.
+        You may want to keep Terminal in your dock for this workshop.
       </p>
     </div>
     <div class="col-md-4">
