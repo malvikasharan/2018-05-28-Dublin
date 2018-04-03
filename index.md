@@ -15,7 +15,7 @@ instructor: ["Jason Williams, Tania Allard, Malvika Sharan"] # boxed, comma-sepa
 helper: ["Bérénice Batut, Danielle Quinn, Chiara Cotroneo, Benjamin Roques, TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["malvika.sharan@embl.de, norman.davey@ucd.ie"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/2018-05-28-Dublin            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: 44600755059
+eventbrite: 
 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -153,8 +153,13 @@ eventbrite: 44600755059
   attempt to provide them.
 </p>
 
+<p id="Registration">
+  <strong>Registration:</strong> 
+  Please note that the course is primarily open for the academic researchers from UCD and UCD affiliated institutes. If you are from other research institute and would like to attend the course, please contact the organizers personally. Each registration will be reviewed and applicants will be confirmed for their participation via email by the oranisers.
+</p>
+
 <p>
-  Please note that the course is primarily open for the academic researchers from UCD and UCD affiliated institutes. If you are from other research institute and would like to attend the course, please contact the organizers personally.
+ <a href="https://www.hd-hub.de/course-dates/3-all/28-data-carpentry-dublin">REGISTER HERE<a>
 </p>
 
 {% comment %}
