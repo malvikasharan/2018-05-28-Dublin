@@ -155,12 +155,14 @@ eventbrite:
 
 <p id="Registration">
   <strong>Registration:</strong> 
-  Please note that the course is primarily open for the academic researchers from UCD and UCD affiliated institutes. If you are from other research institute and would like to attend the course, please contact the organizers personally. Each registration will be reviewed and applicants will be confirmed for their participation via email by the oranisers.
+  Please note that the course is primarily open for the academic researchers from UCD and UCD affiliated institutes. If you are from other research institute and would like to attend the course, please contact the organizers personally.
 </p>
 
 <p>
- <a href="https://www.hd-hub.de/course-dates/3-all/28-data-carpentry-dublin">REGISTER HERE<a>
+ <a href="https://www.hd-hub.de/course-dates/3-all/28-data-carpentry-dublin">REGISTER HERE</a>
 </p>
+
+<p>Each registration will be reviewed and applicants will be confirmed for their participation via email by the oranisers.</p>
 
 {% comment %}
   CONTACT EMAIL ADDRESS
