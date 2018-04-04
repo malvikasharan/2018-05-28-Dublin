@@ -162,7 +162,7 @@ eventbrite:
  <a href="https://www.hd-hub.de/course-dates/3-all/28-data-carpentry-dublin">REGISTER HERE</a>
 </p>
 
-<p>Each registration will be reviewed and applicants will be confirmed for their participation via email by the oranisers.</p>
+<p>Each registration will be reviewed and applicants will be confirmed for their participation via email by the organisers.</p>
 
 {% comment %}
   CONTACT EMAIL ADDRESS
