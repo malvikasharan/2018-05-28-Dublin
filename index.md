@@ -395,7 +395,7 @@ eventbrite:
 
 <h3 id="syllabus">Course Affiliations</h3>
 <p> </p>
-<p><img src="https://carpentries.org/assets/img/TheCarpentries.svg" width="206" height="42" /></p>
-<img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /></p>
+<p><img src="https://carpentries.org/assets/img/TheCarpentries.svg" width="206" height="42" /> 
+<img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /> 
 <img src="https://tess.elixir-europe.org/system/content_providers/images/000/000/063/original/deNBI_Logo_rgb.jpg?1480590048" width="187" height="49" /></p>
 <p> </p>
