@@ -1,9 +1,9 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Computational Skills for Bioinformatics Data Analysis (Data Carpentry)"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Computational Skills for Data Analysis (Data Carpentry)"        # brief name of host site without address (e.g., "Euphoric State University")
 
-address: "University College Dublin, Belfield, Dublin 4, Ireland. Lecture hall: TBD"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "University College Dublin, Belfield, Dublin 4, Ireland. Lecture hall: B003"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "ie"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "En"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "53.142367, -7.692054"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
