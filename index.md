@@ -394,9 +394,9 @@ eventbrite:
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 <h3 id="syllabus">Course Affiliations</h3>
-<p> </p>
-<p><img src="https://wellcome.ac.uk/sites/all/themes/corp_base/assets/images/new-logos/wellcome-logo--white.svg" width="206" height="42" /> 
-<img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /> 
-<p><img src="https://carpentries.org/assets/img/TheCarpentries.svg" width="206" height="42" /> 
-<img src="https://tess.elixir-europe.org/system/content_providers/images/000/000/063/original/deNBI_Logo_rgb.jpg?1480590048" width="187" height="49" /></p>
-<p> </p>
+<p><img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /> 
+<img src="https://carpentries.org/assets/img/TheCarpentries.svg" width="206" height="42" /> 
+<img src="https://tess.elixir-europe.org/system/content_providers/images/000/000/063/original/deNBI_Logo_rgb.jpg?1480590048" width="187" height="49" />
+<img src="http://www.publichealth.cam.ac.uk/funding/wp-content/uploads/2017/01/Wellcome_Trust_logo.svg_.png" width="90" height="90"/>
+</p>
+<p></p>
