@@ -281,117 +281,232 @@ eventbrite:
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-
+<br>
+<p></p>
 <h2 id="setup">Setup</h2>
+<p>
+  To participate in a Data Carpentry workshop,
+  you will need working copies of the software described below.
+  Please make sure to install everything and try opening it to make sure it works
+  <em>before</em> the start of your workshop. If you run into any problems,
+please feel free to email the instructor or arrive early to your workshop on
+the first day.
+Participants should bring and use their own laptops to insure the proper setup of
+tools for an efficient workflow once you leave the workshop.
+</p>
+
+<h3 id="platform_specfic">Platform-specific Notes</h3>
+<p>This workshop will be using the software outlined in the install instructions below.
+Please see the section for your operating system for those directions.
+</p><ul>
+<li><a href="#windows">Windows</a>
+</li><li><a href="#mac">Mac</a>
+</li><li><a href="#linux">Linux</a>
+</li></ul>
+
+<h3 id="windows">Windows</h3>
+<p>
+Please go through all the installation steps below and make sure that
+you not only installed them, but start them up to make sure they're working.
+If you have any problems, don't hesitate to email the instructors to
+ask for help, or arrive early on the first day of the workshop to
+get help.
+</p>
+<div class="row-fluid">
+<ol>
+<li><b>A spreadsheet program</b></li>
+<br>For this workshop you will need a spreadsheet program. Many people already have
+Microsoft Excel installed, and if you do, you're set!
+<br>
+If you need a spreadsheet
+program, there are a few other options, like OpenOffice and LibreOffice. Install
+instructions for LibreOffice, which is free and open source, are here.
+       <ul>
+          <li><b>Download the Installer</b>
+        <br>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Windows
+should automatically be selected. Click <b>Download Version 6.0.3 or later</b>. You
+will go to a page that asks about a donation, but you don't need to make one.
+Your download should begin automatically.
+          </li><li><b>Install LibreOffice</b>
+            <br>Once the installer is downloaded, double click on it and it should install.
+</li><li>To use LibreOffice, double click on the icon and it will open.
+</li></ul>
+<li><b>Putty</b></li>
+<br>You will need a terminal program to access the AWS Cloud/HPC cluster.
+<ul>
+<li>Go to the Putty <a href="http://www.chiark.greenend.org.uk/%7Esgtatham/putty/download.html">download
+page</a>
+</li><li>Click on <i>putty.exe</i> link to download the install file
+</li><li>To use it, double-click on the downloaded file
+</li><li>Follow any installation instructions, if any
+</li></ul>
+<li><b>FTP Client (Filezilla)</b></li>
+<br>An FTP client will help you transfer files easily between your computer and the cloud.
+<ul>
+<li>Go to the Filezila <a href="https://filezilla-project.org/download.php?show_all=1">download
+page</a>
+</li><li>Chose the download link appropriate to your system
+</li><li>To use it, double-click on the downloaded file
+</li><li>Follow any installation instructions, if any
+</li><li>At the workshop we will give you additional information (e.g. host, username, port) to connect
+</li></ul>
+<li><b>R</b></li>
+<br>In the workshop, we will use RStudio. RStudio is a nice interface to the
+programming language R. To use RStudio, you need to install both R and RStudio.
+<ul>
+<li>      Download R from
+      <a href="http://cran.r-project.org/bin/windows/base/release.htm">here</a>
+</li><li>Run the .exe file that was just downloaded
+</li><li>Go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
+</li><li>Under <i>Installers</i> select <b>RStudio 1.1.447 or later - Windows XP/Vista/7/8</b>
+</li><li>Double click the file to install it
+</li><li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+</li></ul>
+<li><b>IGV</b>
+<br>If time permits, we will use The Broad Institute's IGV (Integrated Genome Viewer) for
+looking at SAM and BAM files, SNPs, and variant calls.
+<ul>
+<li>To download IGV, please visit
+<a href="https://www.broadinstitute.org/software/igv/log-in">this page</a>
+ and log in. Please register if you do not already have a login.</li>
+<li>Click on the large button for the Download Binary Distribution</li>
+<li>Find the zip archive on your computer and expand it</li>
+<li>To run IGV, double-click on the IGV.bat file.</li>
+</ul>
+</li></ol></div>
+
+<h3 id="mac">Mac</h3>
+<p>
+Please go through all the installation steps below and make sure that
+you not only installed them, but start them up to make sure they're working.
+If you have any problems, don't hesitate to email the instructors to
+ask for help, or arrive early on the first day of the workshop to
+get help.
+</p><div class="row-fluid">
+<ol>
+<li><b>A spreadsheet program</b>
+<br>For this workshop you will need a spreadsheet program. Many people already have
+Microsoft Excel installed, and if you do, you're set!
+<br>
+If you need a spreadsheet
+program, there are a few other options, like OpenOffice and LibreOffice. Install
+instructions for LibreOffice, which is free and open source, are here.
+       <ul>
+          <li><b>Download the Installer</b>
+        <br>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Mac
+should automatically be selected. Click <b>Download Version 6.0.3 or later</b>. You
+will go to a page that asks about a donation, but you don't need to make one.
+Your download should begin automatically.
+          </li><li><b>Install LibreOffice</b>
+            <br>Once the installer is downloaded, double click on it and it should install.
+</li><li>To use LibreOffice, double click on the icon and it will open.
+</li></ul>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
+</p></li><li><b>FTP Client (Filezilla)</b>
+<br>An FTP client will help you transfer files easily between your computer and the cloud.
+<ul>
+<li>Go to the Filezila <a href="https://filezilla-project.org/download.php?show_all=1">download
+page</a>
+</li><li>Chose the download link appropriate to your system
+</li><li>To use it, double-click on the downloaded file
+</li><li>Follow any installation instructions, if any
+</li><li>At the workshop we will give you additional information (e.g. host, username, port) to connect
+</li></ul>
+</li>
+<p><li><b>R</b>
+<br>In the workshop, we will use RStudio. RStudio is a nice interface to the
+programming language R. To use RStudio, you need to install both R and RStudio.
+<ul>
+<li>Go to <a href="http://cran.r-project.org/">CRAN</a> and click on <i>Download
+R for (Mac) OS X</i>
+</li><li>Select the .pkg file for the version of OS X that you have and the file
+will download.
+</li><li>Double click on the file that was downloaded and R will install
+</li><li>Go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
+</li><li>Under <i>Installers</i> select <b>RStudio 1.1.447 or later - Mac OS X 10.6+ (64-bit)</b> to download it.
+</li><li>Once it's downloaded, double click the file to install it
+</li><li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+</li></ul>
+<p><li><b>IGV</b></li>
+<br>If time permits, we will use The Broad Institute's IGV (Integrated Genome Viewer) for
+	looking at SAM and BAM files, SNPs, and variant calls.</p>
+<ul>
+<li>To download IGV, please visit
+<a href="https://www.broadinstitute.org/software/igv/log-in">this page</a>
+ and log in. Please register if you do not already have a login.</li>
+<li>Click on the large button for the Download Binary Distribution</li>
+<li>Find the zip archive on your computer and expand it</li>
+<li>To run IGV, double-click on the IGV.bat file.</li>
+</ul>
+
+</li></p></ol>
+<h3 id="linux">Linux</h3>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+Please go through all the installation steps below and make sure that
+you not only installed them, but start them up to make sure they're working.
+If you have any problems, don't hesitate to email the instructors to
+ask for help, or arrive early on the first day of the workshop to
+get help.
+</p><div class="row-fluid">
+<ol>
+<li><b>A spreadsheet program</b>
+<br>For this workshop you will need a spreadsheet program. Many people already have
+Microsoft Excel installed, and if you do, you're set!
+<br>
+If you need a spreadsheet
+program, there are a few other options, like OpenOffice and LibreOffice. Install
+instructions for LibreOffice, which is free and open source, are here.
+       <ul>
+          <li><b>Download the Installer</b>
+        <br>Install LibreOffice by going to the <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>. The version for Linux
+should automatically be selected. Click <b>Download Version 6.0.3 or later</b>. You
+will go to a page that asks about a donation, but you don't need to make one.
+Your download should begin automatically.
+          </li><li><b>Install LibreOffice</b>
+            <br>Once the installer is downloaded, double click on it and it should install.
+</li><li>To use LibreOffice, double click on the icon and it will open.
+</li></ul>
+</li><li><b>FTP Client (Filezilla)</b>
+<br>An FTP client will help you transfer files easily between your computer and the cloud.
+<ul>
+<li>Go to the Filezila <a href="https://filezilla-project.org/download.php?show_all=1">download
+page</a>
+</li><li>Chose the download link appropriate to your system
+</li><li>To use it, double-click on the downloaded file
+</li><li>Follow any installation instructions, if any
+</li><li>At the workshop we will give you additional information (e.g. host, username, port) to connect
+</li></ul>
 
-  <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
-  </p>
 
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="shell-windows">Windows</h4>
-      <ol>
-        <li>Download and install <a href="http://www.putty.org/">PuTTY</a> for Windows .</li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-macosx">macOS</h4>
-      <p>
-        The default shell in all versions of macOS is Bash, so no
-        need to install anything.  You access Bash from the Terminal
-        (found in
-        <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open the Terminal.
-        You may want to keep
-        Terminal in your dock for this workshop.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-linux">Linux</h4>
-      <p>
-        The default shell is usually Bash, but if your
-        machine is set up differently you can run it by opening a
-        terminal and typing <code>bash</code>.  There is no need to
-        install anything.
-      </p>
-    </div>
-  </div>
-</div> {% comment %} End of 'shell' section. {% endcomment %}
 
-<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
-        for example when installing R packages.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
+<p><li><b>R</b>
+<br>In the workshop, we will use RStudio. RStudio is a nice interface to the
+programming language R. To use RStudio, you need to install both R and RStudio.
+<ul>
+<li>R is available through most Linux package managers.
+You can download the binary files for your distribution
         from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo dnf install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> {% comment %} End of 'R' section. {% endcomment %}
+        <code>sudo yum install R</code>).
+</li><li>To install RStudi, go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
+</li><li>Under <i>Installers</i> select the version for your distribution.
+</li><li>Once it's downloaded, double click the file to install it
+</li><li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+</li></ul>
+<p>
+</p></li>
+<p><li><b>IGV</b>
+<br>If time permits, we will use The Broad Institute's IGV (Integrated Genome Viewer) for
+looking at SAM and BAM files, SNPs, and variant calls.
+<ul>
+<li>To download IGV, please visit
+<a href="https://www.broadinstitute.org/software/igv/log-in">this page</a>
+ and log in. Please register if you do not already have a login.
+<li>Click on the large button for the Download Binary Distribution
+<li>Find the zip archive on your computer and expand it
+<li>To run IGV, double-click on the IGV.bat file.
 
 <h3 id="syllabus">Course Affiliations</h3>
 <p><img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /> 
