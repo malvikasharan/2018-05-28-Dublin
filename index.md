@@ -508,7 +508,8 @@ looking at SAM and BAM files, SNPs, and variant calls.
 <li>Find the zip archive on your computer and expand it
 <li>To run IGV, double-click on the IGV.bat file.
 
-<h3 id="syllabus">Course Affiliations</h3>
+
+<h2 id="syllabus">Course Affiliations</h2>
 <p><img src="http://www.ipposi.ie/wp-content/uploads/2017/03/UCD-logo.png" width="80" height="80" /> 
 <img src="https://carpentries.org/assets/img/TheCarpentries.svg" width="206" height="42" /> 
 &nbsp; &nbsp;<img src="https://tess.elixir-europe.org/system/content_providers/images/000/000/063/original/deNBI_Logo_rgb.jpg?1480590048" width="187" height="49" />
