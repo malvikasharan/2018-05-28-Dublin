@@ -91,9 +91,9 @@ eventbrite:
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  <a href="https://www.openstreetmap.org/way/23653391#map=17/53.30878/-6.22165">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="https://www.google.ie/maps/place/UCD+School+of+Computer+Science/@53.3092609,-6.2260722,17z/data=!3m1!4b1!4m5!3m4!1s0x486709309a5b7149:0x80dd297b516d89b5!8m2!3d53.3092609!4d-6.2238835?shorturl=1">Google Maps</a>.
 </p>
 {% endif %}
 
